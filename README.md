@@ -1,2 +1,6 @@
 # libacrl
-Library with actor-critic reinforcement learning algorithms and a number of function approximators that are described in the PhD thesis "Online Model Learning Algorithms for Actor-Critic Control"
+Library with actor-critic reinforcement learning algorithms and a number of function approximators that are described in the PhD thesis ["Online Model Learning Algorithms for Actor-Critic Control"](http://repository.tudelft.nl/view/ir/uuid%3A415e14fd-0b1b-4e18-8974-5ad61f7fe280/)
+## Contents
+The actual library source and include files are in the `src` and `include` directories, respectively. The `examples` folder contains source files showing how the library can be used. More files will be added soon, but you can also contact the author for more help or examples. Note that he library as well as the example files all depend on the [GNU Scientific Library](http://www.gnu.org/software/gsl/). When linking, please link to both the gsl as well as the gslcblas library.
+## Disclaimer
+This is research code! Hindsight is a wonderful thing and a lot of design choices with respect to classes, interfaces etc. did not turn out to be very pretty as the code was developed and extended. Writing elegant code also did not have top priority during the PhD project. The only objective ever in mind was to make it work :)
